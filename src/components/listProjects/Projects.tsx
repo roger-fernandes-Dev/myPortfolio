@@ -1,7 +1,7 @@
-import {FaHtml5, FaCss3Alt, FaNodeJs, FaSass, FaReact} from "react-icons/Fa";
-import {DiJavascript} from "react-icons/Di";
-import {TbBrandNextjs} from "react-icons/Tb";
-import {SiTypescript, SiTailwindcss, SiGithub} from "react-icons/Si"
+import {FaHtml5, FaCss3Alt, FaNodeJs, FaSass, FaReact} from "react-icons/fa";
+import {DiJavascript} from "react-icons/di";
+import {TbBrandNextjs} from "react-icons/tb";
+import {SiTypescript, SiTailwindcss, SiGithub} from "react-icons/si"
 import Image from 'next/image';
 import generationRandonNumbers from "../../../public/generationRandomNumbers.png";
 import simpleClassBasedCounter from "../../../public/simpleClassBasedCounter.png";
