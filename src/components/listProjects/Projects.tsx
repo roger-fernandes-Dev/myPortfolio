@@ -22,7 +22,7 @@ export default function Projects(){
                 <SiTypescript className="w-6 h-6 lg:w-10 lg:h-10 hover:fill-blue-400 transition-all duration-500"/>
                 </section>
             <ul className="w-full h-full grid md:grid-cols-2 lg:grid-cols-3 justify-items-center content-center gap-4 md:gap-1 transition-all ease-in-out duration-300 ">
-                <li className="w-4/5 h-64 flex flex-col justify-center items-center hover:scale-125 hover:-translate-y-6 transition-all ease-in-out duration-700 lg:w-4/5 lg:h-80 border-solid border-2 rounded-md border-green-400 ">
+                <li className="w-4/5 h-64 flex flex-col justify-between items-center hover:scale-125 hover:-translate-y-6 transition-all ease-in-out duration-700 lg:w-4/5 lg:h-80 border-solid border-2 rounded-md border-green-400 ">
                     <header className="text-center font-semibold text-lg">Generation Random Numbers</header>
                     <figure className="flex flex-col items-center justify-evenly">
                         <Image src={generationRandonNumbers} width={260} height={260} alt="image project generation random numbers" />
@@ -32,7 +32,7 @@ export default function Projects(){
                         <button className="w-24 h-10 flex justify-evenly items-center border rounded-md text-green-400 border-green-400 trasition-all duration-700 hover:bg-green-400 hover:text-white">view <SiGithub /></button>
                     </a>                   
                 </li>
-                <li className="w-4/5 h-64 flex flex-col justify-center items-center hover:scale-125 hover:-translate-y-6 transition-all ease-in-out duration-700 lg:w-4/5 lg:h-80 border-solid border-2 rounded-md border-green-400 ">
+                <li className="w-4/5 h-64 flex flex-col justify-between items-center hover:scale-125 hover:-translate-y-6 transition-all ease-in-out duration-700 lg:w-4/5 lg:h-80 border-solid border-2 rounded-md border-green-400 ">
                 <header className="text-center font-semibold text-lg">simple class-based counter</header>
                     <figure className="flex flex-col items-center  justify-evenly">
                         <Image src={simpleClassBasedCounter} width={200} height={200} alt="simpleClassBasedCounter" />
@@ -42,7 +42,7 @@ export default function Projects(){
                         <button className="w-24 h-10 flex justify-evenly items-center border rounded-md text-green-400 border-green-400 trasition-all duration-700 hover:bg-green-400 hover:text-white">view <SiGithub /></button>
                     </a>
                 </li>
-                <li className="w-4/5 h-64 flex flex-col justify-center items-center hover:scale-125 hover:-translate-y-6 transition-all ease-in-out duration-700 lg:w-4/5 lg:h-80 border-solid border-2 rounded-md border-green-400 ">
+                <li className="w-4/5 h-64 flex flex-col justify-between items-center hover:scale-125 hover:-translate-y-6 transition-all ease-in-out duration-700 lg:w-4/5 lg:h-80 border-solid border-2 rounded-md border-green-400 ">
                 <header className="text-center font-semibold text-lg">Simple Calculator</header>
                     <figure className="flex flex-col items-center justify-around">
                         <Image src={simpleCalculator} width={200} height={200} alt="simpleClassBasedCounter" />
