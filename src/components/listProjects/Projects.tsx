@@ -1,13 +1,7 @@
 import {FaHtml5, FaCss3Alt, FaNodeJs, FaSass, FaReact} from "react-icons/fa";
-<<<<<<< HEAD
-import {DiJavascript} from "react-icons/Di";
-import {TbBrandNextjs} from "react-icons/Tb";
-import {SiTypescript, SiTailwindcss, SiGithub} from "react-icons/Si"
-=======
 import {DiJavascript} from "react-icons/di";
 import {TbBrandNextjs} from "react-icons/tb";
 import {SiTypescript, SiTailwindcss, SiGithub} from "react-icons/si"
->>>>>>> 4cc6d52048251333c052962af91f881e0359511f
 import Image from 'next/image';
 import generationRandonNumbers from "../../../public/generationRandomNumbers.png";
 import simpleClassBasedCounter from "../../../public/simpleClassBasedCounter.png";
@@ -27,7 +21,7 @@ export default function Projects(){
                 <FaNodeJs className="w-6 h-6 lg:w-10 lg:h-10 hover:fill-green-400 transition-all duration-500"/>
                 <SiTypescript className="w-6 h-6 lg:w-10 lg:h-10 hover:fill-blue-400 transition-all duration-500"/>
                 </section>
-                
+
             <ul className="w-full h-full mt-4 grid md:grid-cols-2 lg:grid-cols-3 justify-items-center content-center gap-7 md:gap-7 transition-all ease-in-out duration-300 ">
                 <li className="w-4/5 h-96 flex flex-col justify-between items-center hover:scale-125 hover:-translate-y-6 transition-all ease-in-out duration-700 lg:w-4/5 lg:h-80 border-solid border-2 rounded-md border-green-400 ">
 
