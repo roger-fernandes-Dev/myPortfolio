@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import photoProfile from "../../../public/media.png";
-import { GrLinkedin, GrGithub } from 'react-icons/Gr';
-import { BsArrowDownCircle } from 'react-icons/Bs';
+import { GrLinkedin, GrGithub } from 'react-icons/gr';
+import { BsArrowDownCircle } from 'react-icons/bs';
 
 export default function Header(){
 
