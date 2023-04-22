@@ -21,6 +21,9 @@ module.exports = {
         '600': '600px',
         '800': '800px',
         '1000': '1000px',
+        '1200': '1200px',
+        '1500': '1500px',
+
       },
       animation: {
         'fade-in': 'fade-in 5s ease-out infinite',
